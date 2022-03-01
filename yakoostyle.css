@@ -21,3 +21,39 @@ li a {
 li a:hover {
     background-color: #111111;
 }
+
+button {
+    float: right;
+    border: none;
+    background-color: #6089e0;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding : 13px;
+    border-radius: 20px;
+    align-self: center;
+}
+button:hover {
+    box-shadow: 10px 10px 5px black;
+    background-color: #6089e0c5 ;
+}
+h2 {
+    color: blue;
+}
+h2:hover {
+    color:rgba(0, 0, 255, 0.76);
+    text-decoration: underline;
+
+}
+#board {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
+#yakoomain {
+
+}
+#footerul {
+    margin-left: 15%;
+}
