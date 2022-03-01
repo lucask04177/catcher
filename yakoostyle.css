@@ -54,6 +54,13 @@ h2:hover {
 #yakoomain {
 
 }
+ul.footerul {
+    list-style-type : none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
 #footerul {
     margin-left: 15%;
 }
