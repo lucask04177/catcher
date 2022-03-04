@@ -183,6 +183,7 @@ div.board li a:hover{
 
 iframe {
     border-style: solid 2px red;
+    align-self: center;
 }
 
 .iframeindex {
@@ -191,3 +192,26 @@ iframe {
     margin-top: 20px;
 
 }
+
+.thumbsup {
+    text-align: center;
+    display: inline-block;
+}
+
+.good {
+    background-color: #0c2061;
+}
+.good span {
+    color: blue;
+}
+
+.bad {
+    background-color: #0c2061;
+}
+.bad:hover {
+    background-color: rgb(255, 110, 110);
+}
+.bad span {
+    color: red;
+}
+
