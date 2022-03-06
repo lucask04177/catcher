@@ -80,15 +80,52 @@ li a {
 .yakhoo-list {
     border: transparent;
     border-radius: 20px;
-    background-color: rgb(253, 65, 96);
+    background-color: yellow;
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
-    padding: 20px 3px 60px;
+    padding: 20px 3px 500px;
     color: white;
     align-content: center;
-    background-image: url('');
+    background-image: url('0F34263E-A701-41B2-9124-3893E97864AD.jpeg');
     background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.bg-text {
+    background-color:transparent;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 130%);
+    /* z-index: 2; */
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.815) 2px 2px;    
+    font-size: 20px;
+}
+
+.bg-text .explore {
+    background : white
+}
+.explore {
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px white solid;
+    color: white;
+    padding: 15px 30px;
+    font-size: 14px;
+    display: inline-block;
+}
+.detail-text {
+    font-weight: 900;
+    background : linear-gradient(3deg, rgb(119, 4, 119), rgb(248, 182, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media only screen and (min-width: 1000px) {
