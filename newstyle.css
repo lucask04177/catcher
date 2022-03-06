@@ -7,6 +7,9 @@ html {
     margin: 0;
     padding: 0;
 }
+h1 {
+    margin-top: 70px;
+}
 .top {
     background-color: black;
     padding-bottom: 30px;
@@ -24,6 +27,9 @@ html {
     overflow: hidden;
     border-radius: 20px;
     background-color: white;
+    width: 85%;
+    display: inline-block;
+    text-align: center;
 }
 
 li {
@@ -41,7 +47,7 @@ li a {
     border: transparent;
     border-radius: 20px;
     background-color: rgb(253, 65, 96);
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     padding: 20px 3px 30px;
     color: white;
@@ -80,8 +86,7 @@ li a {
 .yakhoo-list {
     border: transparent;
     border-radius: 20px;
-    background-color: yellow;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px 3px 500px;
@@ -126,6 +131,41 @@ li a {
     background : linear-gradient(3deg, rgb(119, 4, 119), rgb(248, 182, 248));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.horizon-scroll {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.scroll-list {
+    list-style: none;
+    overflow: auto;
+    white-space: nowrap;
+}
+.scroll-li {
+    border: transparent;
+    border-radius: 20px;
+    background-color: rgb(253, 65, 96);
+    width: 85%;
+    margin-left: 1px;
+    padding: 20px 3px 150px;
+    color: white;
+    align-content: center;
+    display: inline-block;
+}
+
+.scroll-li-text {
+    background-color:rgba(0, 0, 0, 0.247);
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    border: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 @media only screen and (min-width: 1000px) {
