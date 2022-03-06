@@ -74,8 +74,21 @@ li a {
 .my-pic {
     margin-top: 10%;
     width: 100%;
-    border-radius: 20%;
-    
+    border-radius: 20%;   
+}
+
+.yakhoo-list {
+    border: transparent;
+    border-radius: 20px;
+    background-color: rgb(253, 65, 96);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 3px 60px;
+    color: white;
+    align-content: center;
+    background-image: url('');
+    background-size: cover;
 }
 
 @media only screen and (min-width: 1000px) {
