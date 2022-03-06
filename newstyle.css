@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+.top {
+    background-color: black;
+    padding-bottom: 500px;
+}
+.sticky-top {
+    background-color: black;
+    padding : 10px;
+    /* top: 100%; */
+}
+.navbar {
+    margin: 20px 3% 20px 3%;
+    list-style-type : none;
+    /* margin: 10px 10px 0px 10px; */
+    padding: 10px;
+    overflow: hidden;
+    background: linear-gradient(blue, pink);
+    border-radius: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-shadow: black 2px 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.post-list {
+    border: transparent;
+    border-radius: 20px;
+    background-color: rgb(253, 65, 96);
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 3px 30px;
+    color: white;
+    align-content: center;
+}
+
+.post-list li {
+    list-style: none;
+    text-shadow: none;
+}
+
+.post-list a {
+    text-shadow: none;
+}
+
+.detail {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px white solid;
+    color: white;
+    padding: 5px 15px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+    .post-list {
+        width: 800px;
+        margin: 0 auto;
+    }
+    .navbar {
+        width: 800px;
+        margin : 0 auto;
+    }
+}
