@@ -2,7 +2,7 @@ body {
     /* background-color: rgb(255, 255, 255); */
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, black, black 30%, white 50%, pink 20%);
+    background-image: linear-gradient(to bottom,red, red 30%, white 50%, pink);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -35,6 +35,7 @@ h1 {
     text-align: center;
     position: sticky;
     top : 0px;
+    z-index: 1000;
 }
 .sticky-top {
     position: fixed;
@@ -73,6 +74,7 @@ h1 {
 
 .navbar-top.sticky {
     background-color: white;
+    transition: all 2s ease;
 }
 
 
