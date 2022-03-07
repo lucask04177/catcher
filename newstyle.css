@@ -1,7 +1,10 @@
 body {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to bottom, black, black 30%, white 50%, pink 20%);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 html {
     margin: 0;
@@ -15,24 +18,23 @@ h1 {
     background-color: black;
     text-align: center;
     padding: 15px;
+    margin-bottom: 0px;
+    border-bottom: 100px;
 }
 .top-notice a {
     color: white;
 }
-.top {
-    background-color: black;
-    border: 100px;
-    margin: 0 auto;
-    border: transparent 1px solid;
-}
+
 
 .navbar-top {
     margin: 0 auto;
     padding: 30px 0px 5px;
     margin-top: 10px;
-    background-color: white;
+    background-color: yellow;
     width: 100%;
     text-align: center;
+    position: sticky;
+    top : 0px;
 }
 .sticky-top {
     position: fixed;
@@ -126,7 +128,7 @@ li a {
     border-radius: 20px;
     width: 85%;
     margin: 0 auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* padding: 20px 3px 500px; */
     color: black;
     /* align-content: center; */
@@ -198,7 +200,7 @@ li a {
     border: transparent;
     border-radius: 20px;
     background-color: rgb(253, 65, 96);
-    width: 100%;
+    width: 85%;
     margin-left: 1px;
     padding: 20px 3px 150px;
     color: white;
