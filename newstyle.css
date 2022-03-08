@@ -2,7 +2,7 @@ body {
     /* background-color: rgb(255, 255, 255); */
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom,black,black 30%, white 50%, pink);
+    background-image: linear-gradient(to bottom,red 50%,red; white 50%, pink);
     background-size: cover;
     background-repeat: no-repeat;
 }
