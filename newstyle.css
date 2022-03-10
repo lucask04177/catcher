@@ -73,7 +73,7 @@ h1 {
     bottom : 0px;
     z-index: 1000;
     transition: all 1s ease;
-    display: block;
+    display: flex;
 }
 
 .navbar-bottom.hide {
@@ -86,7 +86,6 @@ h1 {
     color: black;
     width: 30%;
     margin: 0 auto;
-    display: block;
     text-align: center;
     position: sticky;
 }
