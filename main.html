@@ -63,9 +63,9 @@
             window.onscroll = function() {
                 var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
-                    document.getElementsByClassName("navbar-bottom").style.bottom = "50px";
+                    document.querySelector('.navbar-bottom').style.bottom = "0px";
                 } else {
-                    document.getElementsByClassName("navbar-bottom").style.bottom = "0px";
+                    document.querySelector('.navbar-bottom').style.bottom = "-100px";
                 }
                 prevScrollpos = currentScrollPos;
             }
