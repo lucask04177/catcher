@@ -59,16 +59,15 @@
                 }
             })
 
-            let prevScrollpos = window.pageYOffset;
+            var prevScrollpos = window.pageYOffset;
             window.onscroll = function() {
-                let currentScrollPos = window.pageYOffset;
+                var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
-                    document.getElementsByClassName("navbar-bottom").style.top = "0px";
+                    document.getElementsByClassName("navbar-bottom").style.bottom = "50px";
+                } else {
+                    document.getElementsByClassName("navbar-bottom").style.bottom = "0px";
                 }
-                else{
-                    document.getElementById("navbar").style.top = "+50px";
-                }
-                              
+                prevScrollpos = currentScrollPos;
             }
         </script>
     </body>
