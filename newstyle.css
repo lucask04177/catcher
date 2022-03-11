@@ -17,7 +17,7 @@ h1 {
 
 .modal {
     background :rgba(233, 7, 7, 0.212);
-    display: flex;
+    display: none;
     z-index: 1000;
     position: fixed;
     margin: 0 auto;
