@@ -60,7 +60,7 @@ h1 {
     color: black;
     background-color: black;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     margin-bottom: 0px;
     border-bottom: 100px;
 }
@@ -71,7 +71,7 @@ h1 {
 
 .navbar-top {
     margin: 0 auto;
-    padding: 30px 0px 5px;
+    padding: 15px 0px 5px;
     margin-top: 10px;
     background-color: black;
     width: 100%;
