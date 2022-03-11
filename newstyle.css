@@ -19,7 +19,7 @@ h1 {
     background : linear-gradient(70deg, pink, purple);
     background :rgba(0, 0, 0, 0.212);
     display: flex;
-    z-index: 1;
+    z-index: 1000;
     /* position: fixed; */
     margin: 0 auto;
     width: 100%;
@@ -28,16 +28,26 @@ h1 {
 }
 
 .modal-content {
-    background-color: yellow;
-    margin: 15% auto;
-    padding: 20%;
+    background-color: rgb(252, 252, 252);
+    margin: 0 auto;
+    padding: 5%;
     border: 1px solid green;
-    width: 80%;
+    width: 100%;
+    float: right;
 }
+
+.modal-content input[type=text] {
+    font-size: 15px;
+    margin: 0 auto;
+    border: none;
+    padding: 6px;
+    width: 85%;
+}
+
 
 .close {
     color: #aaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
 }
